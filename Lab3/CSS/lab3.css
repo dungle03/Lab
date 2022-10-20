@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.options {
+    background: rgb(238,238,238);
+}
+
+.options ul {
+    margin-left: -10px;
+    display: flex;
+}
+
+.options ul li {
+    padding: 20px;
+    list-style: none;
+
+}
+
+.header {
+    padding: 30px 10px;
+}
+
+.quick-link {
+    width: 20%;
+}
+
+.quick-box {
+    margin: 30px;
+    border: 1px solid rgb(238,238,238);
+}
+
+.quick-button {
+    padding: 10px;
+    border: 1px solid rgb(238,238,238);
+    background: rgb(238,238,238);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quick-button button {
+    width: 20px;
+}
+
+.links {
+    padding: 5px;
+}
+
+.links p {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.create {
+    width: 80%;
+    margin: 30px;
+}
+
+.create-pro {
+    border: 1px solid rgb(238,238,238);
+}
+
+.create-box {
+    padding: 20px;
+    border: 1px solid rgb(238,238,238);
+    background: rgb(238,238,238);
+}
+
+.create-pro h2 {
+    padding: 10px;
+}
+
+.create-box input {
+    margin-left: 10px;
+}
+
+.create-box button i {
+    font-size: 24px;
+}
+
+thead 
+{
+    background: rgb(173, 173, 173);
+}
+
+table {
+    margin: 20px;
+
+}
+
+tbody {
+
+    background: rgb(238,238,238);
+}
+
+tbody td {
+    padding: 10px;
+}
+
+.footer p
+{
+    text-align: center;
+}
