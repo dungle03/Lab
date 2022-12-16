@@ -37,10 +37,45 @@
 
 .wrapper{
 	width: 85%;
-	background-color: #7F7E7E;
+	/* background-color: #7F7E7E; */
 	margin: 0 auto;
 }
 /*begin header*/
+
+#header
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+
+nav
+{
+  background-image: linear-gradient(to bottom, grey, white); /* tạo thẻ có 2 màu đổ từ trên xuống */
+}
+
+
+nav ul
+{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a
+{
+  padding: 10px;
+  display: block;
+  color:#565454;
+  text-decoration: none;
+}
+
+nav li a:hover
+{
+  color: red;
+}
 
 /*end header*/
 .main{
