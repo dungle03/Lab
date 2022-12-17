@@ -59,7 +59,7 @@ nav
 nav ul
 {
   display: flex;
-  list-style: none;
+  list-style: none; /* tắt dấu . trước đề mục */
   margin: 0;
   padding: 0;
 }

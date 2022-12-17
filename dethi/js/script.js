@@ -1,18 +1,5 @@
-// coding implementation
-
-const regexname = /^[a-z A-Z]+$/
-const regexemail = /^[a-zA-Z0-9]+@[a-z]+\.[a-z\.]+$/
-const regexphone = /(^\d{10}$)|(^\d{3}-\d{3}-\d{4}$)|(^\d{3} \d{3} \d{4}$)|(^\d{3}\.\d{3}\.\d{4}$)|(^\(\d{3}\) \d{3}-\d{4}$)|(^\+\d{2} \(\d{3}\) \d{3}-\d{4}$)/ 
-// phone
-///\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/
-
-// password
-//^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
-const regexpass = /^[a-zA-Z0-9]{6,}$/
-const regexrating = /^[0-9]+$/
-
-
-function validate() {
+function validate()
+{
     var email = document.getElementById('email').value; // kiểm tra email
     var regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
@@ -55,4 +42,3 @@ function validate() {
     alert("Gui thong tin thanh cong !");
     return true;
 }
-// end coding implementation
